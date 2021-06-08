@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Password Strength Chacker</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="btn">
+          <input type="password" id="textinput" placeholder="Enter password here" oninput="main()">
+          <button type="button" name="button" id="showbtn" onclick="show()"><i class="fa fa-eye" aria-hidden="true"></i></button>
+          <!-- <input type="button" id="showbtn" value="@" onclick="show()"> -->
+        </div>
+        <div id="progressBarDiv"><div value="25" id="progressBar" ><div/></div>
+      </div>
+        <p id="warning"></p><br>
+        <span>~Aman Singh</span>
+    </div>
+  </body>
+</html>
